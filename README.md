@@ -3,13 +3,15 @@
 
 ## Overview
 
-This project is to design a multi-agent system (MAS) that answers survey questions with evidence that support the answers. The system was optimized for multiple constraints: maximizing classification accuracy, ensuring highquality supporting evidence, and minimizing both runtime and computational cost to make the system practical for
+This project is to design a multi-agent system (MAS) that answers survey questions with evidence that support the answers. The system was optimized for multiple constraints: maximizing classification accuracy, ensuring high quality supporting evidence, and minimizing both runtime and computational cost to make the system practical for
 large-scale usage. The designed approach is using 4 agents: Query Expansion Agent, Retrieval Agent, Classification Agent and Aggregate Agent, where each agent handles expanding query, retrieve relevant documents from corpus,
 classify documents to different options that answer the survey and aggregate to normalized and readable output respectively. The final MAS achieved JS score 0.25 and MAP 0.14 according to Kaggle.
 
 ## MAS Design
 **Architecture:**  
 Question → Query Expansion Agent → Retrieval Agent → Classification Agent → Aggregate Agent → Outputs
+
+
 The system progress is tracked with state, which stores all intermediate and final outputs. The Query Expansion Agent
 uses an LLM to generate and clean an expanded natural language query, updating State.query to improve recall and
 better phrasing. The Retrieval Agent preprocesses this query and retrieves relevant documents into State.evidence
@@ -26,7 +28,8 @@ extract all the candidate documents that are relevant to the topic of the questi
 more likely to be able to answer the survey questions. The classification agent is designed to analyze the opinions of
 each document and classify it. The aggregation agent is to help produce the normalized distribution.
 
-Full Details: `./reports/report.pdf`
+Full Details: `./reports/report.pdf`  
+
 ---
 
 ## Quick start (Python 3.9, CPU)
