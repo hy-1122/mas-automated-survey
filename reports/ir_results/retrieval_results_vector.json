@@ -1,0 +1,437 @@
+{
+  "1": {
+    "query": "Do you have separate accounts or joint accounts?",
+    "precision@10": 0.0,
+    "average_precision": 0.0,
+    "retrieved_ids": [
+      "QEXUGKGCQ2",
+      "LDET7RE9MV",
+      "8AN6KW37GZ",
+      "RZ94SMEBEJ",
+      "GQ77RC4JCV",
+      "MHX944WH2U",
+      "3TULMSHGRV",
+      "BF9MBCU55M",
+      "Q5GP2RRCMU",
+      "659GZ4MUZR"
+    ],
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "2": {
+    "query": "Do you like sandwich?",
+    "precision@10": 0.6,
+    "average_precision": 0.5417989417989417,
+    "retrieved_ids": [
+      "WRCQ6S5X5T",
+      "6GKZCE22KB",
+      "FC4FA8A4F7",
+      "UXAHPKG43X",
+      "PQHD5N6RTP",
+      "695F4LGS26",
+      "4SRRXKUX72",
+      "PH8V567T8P",
+      "CWA44L3WSG",
+      "LAJFJ33BLP"
+    ],
+    "labels": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "3": {
+    "query": "What kind of impacts do you think immigrants made to the country?",
+    "precision@10": 0.9,
+    "average_precision": 0.7856701940035273,
+    "retrieved_ids": [
+      "PV82AGBTT6",
+      "FB9CHL22X6",
+      "UKAJ8PKE2P",
+      "PNUAHDBPYJ",
+      "4JVJJ48UKY",
+      "XBP3HBFT7A",
+      "6XEGB7UVK5",
+      "3NA3KQTS4L",
+      "XPTWR4S36P",
+      "BA6QYYHZKG"
+    ],
+    "labels": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "4": {
+    "query": "Have you ever experience something bad in the country?",
+    "precision@10": 0.5,
+    "average_precision": 0.53015873015873,
+    "retrieved_ids": [
+      "G6RCNNPB22",
+      "P3BVHPWQ35",
+      "984TNNZ4DR",
+      "XX4AB5DGQJ",
+      "6S3687HGYU",
+      "JQ2QWQXKTL",
+      "J9UR4LBTBE",
+      "39VD8JEZ9Y",
+      "LBYMDFANQM",
+      "7VLKJ9VSP7"
+    ],
+    "labels": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "5": {
+    "query": "Are you interested in other cultures from immigrants?",
+    "precision@10": 0.5,
+    "average_precision": 0.40793650793650793,
+    "retrieved_ids": [
+      "M45RJ4FX3P",
+      "4SVZ88YEYP",
+      "TAV8ESPN3Y",
+      "ZBADRQC82T",
+      "WG397PQBY8",
+      "YTV22RSQZN",
+      "PEBCM5DJNG",
+      "RMYHTL5UG7",
+      "GWPVM3SDP8",
+      "85KQ8PUTD5"
+    ],
+    "labels": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  "6": {
+    "query": "Which country or places would you like to travel?",
+    "precision@10": 0.4,
+    "average_precision": 1.0,
+    "retrieved_ids": [
+      "Q6B2ZWNWLU",
+      "49WL53N6TA",
+      "6MYLFUZFLE",
+      "JFPWLREVXK",
+      "WBRZVGHYRK",
+      "EJYJWYPXX4",
+      "6Y8U63YGD9",
+      "2MQCUF65WQ",
+      "5V9CV6HMH6",
+      "4PFKRUQM8D"
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "7": {
+    "query": "What benefits do doing sports have?",
+    "precision@10": 0.0,
+    "average_precision": 0.0,
+    "retrieved_ids": [
+      "CQUYVHL697",
+      "JN2XN3HV68",
+      "ZF23DFRWYE",
+      "EWMZBK5MLH",
+      "FDWT9DRX72",
+      "3TWZDDQJ7Z",
+      "WABMPE84D6",
+      "FWVMMYTMMV",
+      "89559YFZ6S",
+      "WDX6T4YXPG"
+    ],
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "8": {
+    "query": "Do you like eating fast food?",
+    "precision@10": 0.0,
+    "average_precision": 0.0,
+    "retrieved_ids": [
+      "M87TQNGPXW",
+      "8R8KXRAS6R",
+      "K8ZDRGVABM",
+      "9QWVM4YVKA",
+      "3YT4K4FH6B",
+      "SMM22QTG2R",
+      "CMLL8JV2B6",
+      "XGSU2ZEEHP",
+      "GGCKXSCA2R",
+      "3NPMYXUH7Z"
+    ],
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "9": {
+    "query": "Do you agree to give priorities to this group of people?",
+    "precision@10": 0.2,
+    "average_precision": 0.15555555555555556,
+    "retrieved_ids": [
+      "J8FDPMKDMU",
+      "Z9SXRV6XA2",
+      "3KRMMA6CNE",
+      "25584QNXHR",
+      "7Z5NKRU3F5",
+      "6KTBMEFATE",
+      "JJRWTD9HR5",
+      "PGK9GDBGTB",
+      "PEHGTAKX6Q",
+      "6JV2RQSY2M"
+    ],
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "10": {
+    "query": "How do you think about the public transport system?",
+    "precision@10": 0.0,
+    "average_precision": 0.0,
+    "retrieved_ids": [
+      "L48BSPG6YE",
+      "H723L8CRZ9",
+      "VPRQ88T78H",
+      "QS3YQKNCPP",
+      "QPXWGV93AJ",
+      "NZBGJP3BYG",
+      "FALP8SB7LQ",
+      "FX4M4F4Q46",
+      "SKZ6APJ32B",
+      "KFK2AGNET2"
+    ],
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "11": {
+    "query": "Do you face any financial problems?",
+    "precision@10": 0.3,
+    "average_precision": 0.40277777777777773,
+    "retrieved_ids": [
+      "NGJU9NYD3K",
+      "UHYWQFLPFB",
+      "Z7AUFKFDV5",
+      "WCKZS8HE3W",
+      "4JAXW5BLDK",
+      "D3FD7HAY9T",
+      "KWXK3764SB",
+      "6W554BVYFS",
+      "HH2JF5YUP8",
+      "JNZFUNCV3C"
+    ],
+    "labels": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "12": {
+    "query": "Do you like your job?",
+    "precision@10": 0.1,
+    "average_precision": 0.3333333333333333,
+    "retrieved_ids": [
+      "YACD4YCGVG",
+      "JN3AB2ZZC3",
+      "6BU8YUFV6N",
+      "DRUU8QRTCE",
+      "XJG59XRA6M",
+      "LDBFZ54A66",
+      "PLGGGZLKZF",
+      "9URATP47MQ",
+      "5LNBRC3RA7",
+      "VP9263GRFD"
+    ],
+    "labels": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "13": {
+    "query": "What do you think about tipping culture",
+    "precision@10": 0.1,
+    "average_precision": 0.5,
+    "retrieved_ids": [
+      "29SE4HZ32U",
+      "7MEL937PAF",
+      "VBKY9BXNV5",
+      "5NU2FXGZLC",
+      "L37W7GFN9H",
+      "L28UU7X6P7",
+      "SRJK2UNHS9",
+      "39SA5CLB9L",
+      "5236AC9GXV",
+      "UURHPCQWWS"
+    ],
+    "labels": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "14": {
+    "query": "How is your relationship with family?",
+    "precision@10": 0.1,
+    "average_precision": 1.0,
+    "retrieved_ids": [
+      "P7HXJSSTGE",
+      "B5NJ2F3D5N",
+      "8MRCJ7RB8K",
+      "ZJWA89DZXH",
+      "WUX59DMFFE",
+      "D5M7N3MDWK",
+      "U9M2ML67AS",
+      "KAWJXDZSX9",
+      "G8EHCM8B6B",
+      "BSFLTS3B36"
+    ],
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "15": {
+    "query": "What is your thoughts of people from Asia?",
+    "precision@10": 0.7,
+    "average_precision": 0.7113945578231293,
+    "retrieved_ids": [
+      "EKYRYAW8Y3",
+      "MG5FM52YVD",
+      "Y3R75DYHLC",
+      "CNZS33TBEG",
+      "PCH3V4F8GV",
+      "983JP9KMZ5",
+      "39N8TFTSCR",
+      "GY7BH36UCS",
+      "H3NY74FDUE",
+      "JN8T5DASFY"
+    ],
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

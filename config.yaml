@@ -1,0 +1,34 @@
+# config.yaml
+seed: 42
+
+data:
+  documents_path: ./data/mini_documents.jsonl
+  questions_path: ./data/dev/mini_dev.json
+
+index:
+  output_dir: ./artifacts/index  # placeholder; created by index.build
+  whoosh_output_dir: ./artifacts/index/whoosh
+  faiss_index_path: ./artifacts/index/faiss.index
+  faiss_ids_path: ./artifacts/index/ids.json
+  meta_path: ./artifacts/index/meta.json
+  full_dataset: False
+  vec_store:
+    mini: ./data/mini_id_to_embeddings.npz
+    full: ./data/id_to_embedding.npz
+  documents:
+    mini: ./data/mini_documents.jsonl
+    full: ./data/documents.jsonl
+
+run:
+  output_csv: ./artifacts/submission_js.csv  # write your CSV (question,distribution,supports)
+  supports_k: 100                             # MUST be 100 on full competition
+  dev:
+    full: ./data/dev/dev.json
+    mini: .\data\dev\mini_dev.json
+  test_input: ./data/test.json
+  test_output: ./artifacts/test_submission_js.csv
+  option_parsing: True
+  query_expansion: True
+  max_retry_prompt: 3
+  retrieve_method: bm25
+  few_shot: True
